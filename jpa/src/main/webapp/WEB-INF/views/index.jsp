@@ -8,5 +8,7 @@
 </head>
 <body>
     <a href="./DeptSelect">jsp 부서관리 이동</a>
+    <div>-------------------------</div>
+    <a href="./DeptSelectView">jsp ajax 부서관리 이동</a>
 </body>
 </html>

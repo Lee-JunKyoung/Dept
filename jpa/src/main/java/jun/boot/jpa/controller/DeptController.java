@@ -104,7 +104,6 @@ public class DeptController {
 		return "./dept/dept_delete_view";
 	}
 
-//@RestController 어노테이션에서는 <a> 태그로 매핑명에 접근할 수 없으므로 @Controller 어노테이션에서 설정한다.
 	@GetMapping("/DeptSelectView")
 	public String selectAllView() {
 		return "./dept/dept_ajax";
